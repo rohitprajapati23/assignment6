@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <style>
+    .hero-2{
+    padding: 50px 0;
+    padding-bottom: 0;
+}
+.quality-des{
+    padding: 10px 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.quality{
+    text-align: center;
+}
+.quality .icons{
+    font-size: 4rem;
+}
+.quality h3{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.quality p{
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.subscribe{
+    background-color: rgb(12, 181, 247);
+    width: 100%;
+    padding: 50px 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 200px;
+    margin-top: 80px;
+}
+.subs-head{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.subs-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.subs-form input{
+    padding: 10px;
+    background-color: rgb(101, 206, 248);
+    border: none;
+    color: white;
+}
+.subs-btn{
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(12, 181, 247);
+}
+.subs-btn:hover{
+    cursor: pointer;
+}
+
+  </style>
+
+</head>
+<body>
+    <section id="about">
+        <div class="hero-2">
+            <div class="quality-des">
+                <div class="quality">
+                    <ion-icon name="shirt-outline" class="icons"></ion-icon>
+                    <h3>Premium Services</h3>
+                    <p>Elevate your wardrobe with our meticulous dry cleaning,
+                        ensuring garments look and feel as good as new.
+                    </p>
+                </div>
+                <div class="quality">
+                    <ion-icon name="people-outline" class="icons"></ion-icon>
+                    <h3>Quick Support</h3>
+                    <p>We're committed to providing prompt solutions to
+                        ensure your experience in smooth and worry-free.
+                    </p>
+                </div>
+                <div class="quality">
+                    <ion-icon name="archive-outline" class="icons"></ion-icon>
+                    <h3>Hassle free Delivery</h3>
+                    <p>Enjoy seamless services with our convenient pickup 
+                        and delivery options, tailored to your schedule.
+                    </p>
+                </div>
+                <div class="quality">
+                    <ion-icon name="person-add-outline" class="icons"></ion-icon>
+                    <h3>Affordable Prices</h3>
+                    <p>Experience exceptional care without breaking the bank- 
+                        our affordable prices make laundry day stress-free.
+                    </p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subs-head">
+                    <h2>Subscribe to our<br>newsletter</h2>
+                </div>
+                <div class="subs-form">
+                    <input type="text" name="name" placeholder="Full name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button class="subs-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
