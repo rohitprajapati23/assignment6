@@ -25,7 +25,7 @@ const routes = (req, res) => {
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
-            res.statusCode = 500;
+            res.statusCode = 501;
             res.end('<h1>Server Error</h1>');
         } else {
             res.setHeader('Content-Type', 'text/html');
